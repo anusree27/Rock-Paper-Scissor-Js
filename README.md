@@ -16,5 +16,5 @@ The Rock, Paper, Scissors game will take user choice, generate a computer choice
 <br><br>
 
 ## Computer is the winner
-![image](https://user-images.githubusercontent.com/85879627/177200751-2788ce89-3d7c-4fa8-9520-ca693f3fdf90.png)
 
+![image](https://user-images.githubusercontent.com/85879627/177200940-1adfb74c-b69b-4658-aa40-2c418d36e0d8.png)
