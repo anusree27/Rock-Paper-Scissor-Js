@@ -51,6 +51,7 @@ document.querySelector('#rock').addEventListener('click', function() {
             document.querySelector('body').style.backgroundColor = '#ff9999';
             document.querySelector('#winner').textContent = 'Computer won, Better luck next time';
             playing = false;
+            
         }
 
     }
