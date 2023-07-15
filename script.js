@@ -42,12 +42,12 @@ document.querySelector('#rock').addEventListener('click', function() {
             document.querySelector('#user-score').textContent = userMark;
             playing = false;
         }
-        if (userMark === 10) {
+        if (userMark === 5) {
             document.querySelector('body').style.backgroundColor = '#d9ffcc';
             document.querySelector('#winner').textContent = 'you are the Winner!!!';
             playing = false;
         }
-        if (compMark === 10) {
+        if (compMark === 5) {
             document.querySelector('body').style.backgroundColor = '#ff9999';
             document.querySelector('#winner').textContent = 'Computer won, Better luck next time';
             playing = false;
@@ -79,12 +79,12 @@ document.querySelector('#paper').addEventListener('click', function() {
             document.querySelector('#user-score').textContent = userMark;
             playing = false;
         }
-        if (userMark === 10) {
+        if (userMark === 5) {
             document.querySelector('body').style.backgroundColor = '#d9ffcc';
             document.querySelector('#winner').textContent = 'you are the Winner!!!';
             playing = false;
         }
-        if (compMark === 10) {
+        if (compMark === 5) {
             document.querySelector('body').style.backgroundColor = '#ff9999';
             document.querySelector('#winner').textContent = 'Computer won, Better luck next time';
             playing = false;
@@ -116,12 +116,12 @@ document.querySelector('#scissor').addEventListener('click', function() {
             document.querySelector('#user-score').textContent = userMark;
             playing = false;
         }
-        if (userMark === 10) {
+        if (userMark === 5) {
             document.querySelector('body').style.backgroundColor = '#d9ffcc';
             document.querySelector('#winner').textContent = 'you are the Winner!!!';
             playing = false;
         }
-        if (compMark === 10) {
+        if (compMark === 5) {
             document.querySelector('body').style.backgroundColor = '#ff9999';
             document.querySelector('#winner').textContent = 'Computer won, Better luck next time';
             playing = false;
@@ -132,7 +132,7 @@ document.querySelector('#scissor').addEventListener('click', function() {
 
 
 document.querySelector('#replay').addEventListener('click', function() {
-    if (compMark == 10 || userMark == 10) {
+    if (compMark == 5 || userMark ==5) {
         playing = false;
     } else {
         playing = true;
