@@ -3,7 +3,7 @@ A simple rock paper scissor game made in JavaScript
 
 The Rock, Paper, Scissors game will take user choice, generate a computer choice, and display the score to the screen. When the high score is reached winner is displayed, the Math Library is used to generate a random choice, and conditionals to determine the winner.
 
-### Demo link: https://rock-paper-scissor.tiiny.site/
+### Demo link: https://anusree27.github.io/Rock-Paper-Scissor-Js/
 
 ## Game Page
 
